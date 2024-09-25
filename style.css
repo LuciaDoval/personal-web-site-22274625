@@ -1,6 +1,41 @@
-header{
-    background-color: transparent;
-    color: dodgerblue;
+
+
+body{
+    background-color: #0F172A;
+    color:white;
     text-align: center;
-    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+a {
+    color : violet;
+}
+
+header {
+    text-size: 40px;
+}
+
+#boton-drive {
+    background-color: white; /* Fondo blanco */
+    color: #0F172A; /* Texto en color oscuro */
+    padding: 15px 20px; /* Tamaño del botón */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Eliminar subrayado */
+    display: inline-block; /* Mostrar en línea */
+    font-size: 16px; /* Tamaño del texto */
+    border: 2px solid #0F172A; /* Borde en color oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a mano al pasar sobre el botón */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave en hover */
+}
+
+#boton-drive:hover {
+    background-color: #0F172A; /* Fondo oscuro al pasar el mouse */
+    color: white; /* Texto blanco al pasar el mouse */
 }
